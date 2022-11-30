@@ -108,6 +108,9 @@ You will be able to see custom column as shown in image
 
 in frontend you will be able to see like this
 
+![Screenshot_5](https://user-images.githubusercontent.com/51017576/204725909-905d08fe-3e05-47b9-84a7-49415cc297d2.png)
+
+
 ![Screenshot_1](https://user-images.githubusercontent.com/51017576/204721146-84ee3add-7e49-42ce-bf10-2967110a2a1c.png)
 
 Login user: admin and password: admin123 and start adding product
