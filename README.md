@@ -94,5 +94,22 @@ Disable Magento_TwoFactorAuth
 C:\wamp64\www\magento2>php bin/magento module:disable Magento_TwoFactorAuth
 ```
 
+Lets create custom module and attribute. Download 'learning' directory and place it under C:\wamp64\www\magento2\app\code
 
-Login user: admin and password: admin123 and add product
+Run the following command
+
+```
+php bin/magento indexer:reindex && php bin/magento setup:upgrade && php bin/magento setup:static-content:deploy -f && php bin/magento cache:flush
+```
+
+You will be able to see custom column as shown in image
+
+![attribute](https://user-images.githubusercontent.com/51017576/204720039-8ed8a395-1418-4d3d-92cd-1e6ddca23862.png)
+
+in frontend you will be able to see like this
+
+![Screenshot_1](https://user-images.githubusercontent.com/51017576/204721146-84ee3add-7e49-42ce-bf10-2967110a2a1c.png)
+
+Login user: admin and password: admin123 and start adding product
+
+Thank you
